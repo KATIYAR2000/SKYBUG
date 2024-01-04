@@ -12,7 +12,7 @@ public class QuizApplication {
     private void initializeQuestions() {
         quizQuestions = new ArrayList<>();
         
-        // Add your quiz questions here
+       
         quizQuestions.add(new QuizQuestion("What is the capital of France?", new String[]{"Paris", "Berlin", "Madrid", "Rome"}, 0));
         quizQuestions.add(new QuizQuestion("Which planet is known as the Red Planet?", new String[]{"Mars", "Venus", "Jupiter", "Saturn"}, 0));
         quizQuestions.add(new QuizQuestion("Which Countruy is the largest country in the world ?", new String[]{"Russia", "India", "USA", "Canada"}, 0));
@@ -21,8 +21,7 @@ public class QuizApplication {
         quizQuestions.add(new QuizQuestion("What is the currency of India  ?", new String[]{"Yen", "Indian Rupee", "Dollar ", "Dhiram"}, 1));
         quizQuestions.add(new QuizQuestion("The Highest Mountain Peak in the world ?", new String[]{"Kilmanjaro", "Andes", "Alps", "Mount Everest "}, 3));
         quizQuestions.add(new QuizQuestion("Deepest Point on earth ?", new String[]{"The Trench", "Marina Trench ", "Ural", "Great Barrier Reef "}, 1));
-        // Add more questions...
-
+  
     }
 
     public void startQuiz() {
