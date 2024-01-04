@@ -9,7 +9,7 @@ public class QuizQuestion {
         this.correctOption = correctOption;
     }
 
-    // Getters (no setters for simplicity)
+  
     public String getQuestion() {
         return question;
     }
